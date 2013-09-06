@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22BFD0BB17D9D96F003362BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BFD0BA17D9D96F003362BB /* UIKit.framework */; };
+		22BFD0BD17D9D96F003362BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BFD0BC17D9D96F003362BB /* Foundation.framework */; };
+		22BFD0BF17D9D96F003362BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BFD0BE17D9D96F003362BB /* CoreGraphics.framework */; };
+		22BFD0C517D9D96F003362BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22BFD0C317D9D96F003362BB /* InfoPlist.strings */; };
+		22BFD0C717D9D96F003362BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BFD0C617D9D96F003362BB /* main.m */; };
+		22BFD0CB17D9D96F003362BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BFD0CA17D9D96F003362BB /* AppDelegate.m */; };
+		22BFD0CD17D9D96F003362BB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22BFD0CC17D9D96F003362BB /* Default.png */; };
+		22BFD0CF17D9D96F003362BB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22BFD0CE17D9D96F003362BB /* Default@2x.png */; };
+		22BFD0D117D9D96F003362BB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22BFD0D017D9D96F003362BB /* Default-568h@2x.png */; };
+		22BFD0D417D9D96F003362BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BFD0D317D9D96F003362BB /* ViewController.m */; };
+		22BFD0D717D9D970003362BB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22BFD0D517D9D970003362BB /* ViewController.xib */; };
+		22BFD0E017D9D9CA003362BB /* SlidingButtonsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BFD0DF17D9D9CA003362BB /* SlidingButtonsView.m */; };
+		22BFD0E417D9D9E1003362BB /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22BFD0E217D9D9E1003362BB /* button@2x.png */; };
+		22BFD0E517D9D9E1003362BB /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 22BFD0E317D9D9E1003362BB /* button.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22BFD0B717D9D96F003362BB /* SlidingButtons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingButtons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BFD0BA17D9D96F003362BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22BFD0BC17D9D96F003362BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22BFD0BE17D9D96F003362BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22BFD0C217D9D96F003362BB /* SlidingButtons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlidingButtons-Info.plist"; sourceTree = "<group>"; };
+		22BFD0C417D9D96F003362BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22BFD0C617D9D96F003362BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22BFD0C817D9D96F003362BB /* SlidingButtons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlidingButtons-Prefix.pch"; sourceTree = "<group>"; };
+		22BFD0C917D9D96F003362BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22BFD0CA17D9D96F003362BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22BFD0CC17D9D96F003362BB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		22BFD0CE17D9D96F003362BB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		22BFD0D017D9D96F003362BB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		22BFD0D217D9D96F003362BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22BFD0D317D9D96F003362BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22BFD0D617D9D970003362BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		22BFD0DE17D9D9CA003362BB /* SlidingButtonsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingButtonsView.h; sourceTree = "<group>"; };
+		22BFD0DF17D9D9CA003362BB /* SlidingButtonsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingButtonsView.m; sourceTree = "<group>"; };
+		22BFD0E217D9D9E1003362BB /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
+		22BFD0E317D9D9E1003362BB /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22BFD0B417D9D96F003362BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BFD0BB17D9D96F003362BB /* UIKit.framework in Frameworks */,
+				22BFD0BD17D9D96F003362BB /* Foundation.framework in Frameworks */,
+				22BFD0BF17D9D96F003362BB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22BFD0AE17D9D96F003362BB = {
+			isa = PBXGroup;
+			children = (
+				22BFD0C017D9D96F003362BB /* SlidingButtons */,
+				22BFD0B917D9D96F003362BB /* Frameworks */,
+				22BFD0B817D9D96F003362BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22BFD0B817D9D96F003362BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22BFD0B717D9D96F003362BB /* SlidingButtons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22BFD0B917D9D96F003362BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22BFD0BA17D9D96F003362BB /* UIKit.framework */,
+				22BFD0BC17D9D96F003362BB /* Foundation.framework */,
+				22BFD0BE17D9D96F003362BB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22BFD0C017D9D96F003362BB /* SlidingButtons */ = {
+			isa = PBXGroup;
+			children = (
+				22BFD0D217D9D96F003362BB /* ViewController.h */,
+				22BFD0D317D9D96F003362BB /* ViewController.m */,
+				22BFD0D517D9D970003362BB /* ViewController.xib */,
+				22BFD0E117D9D9CE003362BB /* SlidingButtonsView */,
+				22BFD0DD17D9D981003362BB /* defaults */,
+				22BFD0E617D9D9E5003362BB /* Resources */,
+				22BFD0C117D9D96F003362BB /* Supporting Files */,
+			);
+			path = SlidingButtons;
+			sourceTree = "<group>";
+		};
+		22BFD0C117D9D96F003362BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22BFD0C217D9D96F003362BB /* SlidingButtons-Info.plist */,
+				22BFD0C317D9D96F003362BB /* InfoPlist.strings */,
+				22BFD0C617D9D96F003362BB /* main.m */,
+				22BFD0C817D9D96F003362BB /* SlidingButtons-Prefix.pch */,
+				22BFD0CC17D9D96F003362BB /* Default.png */,
+				22BFD0CE17D9D96F003362BB /* Default@2x.png */,
+				22BFD0D017D9D96F003362BB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22BFD0DD17D9D981003362BB /* defaults */ = {
+			isa = PBXGroup;
+			children = (
+				22BFD0C917D9D96F003362BB /* AppDelegate.h */,
+				22BFD0CA17D9D96F003362BB /* AppDelegate.m */,
+			);
+			name = defaults;
+			sourceTree = "<group>";
+		};
+		22BFD0E117D9D9CE003362BB /* SlidingButtonsView */ = {
+			isa = PBXGroup;
+			children = (
+				22BFD0DE17D9D9CA003362BB /* SlidingButtonsView.h */,
+				22BFD0DF17D9D9CA003362BB /* SlidingButtonsView.m */,
+			);
+			name = SlidingButtonsView;
+			sourceTree = "<group>";
+		};
+		22BFD0E617D9D9E5003362BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22BFD0E217D9D9E1003362BB /* button@2x.png */,
+				22BFD0E317D9D9E1003362BB /* button.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22BFD0B617D9D96F003362BB /* SlidingButtons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BFD0DA17D9D970003362BB /* Build configuration list for PBXNativeTarget "SlidingButtons" */;
+			buildPhases = (
+				22BFD0B317D9D96F003362BB /* Sources */,
+				22BFD0B417D9D96F003362BB /* Frameworks */,
+				22BFD0B517D9D96F003362BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlidingButtons;
+			productName = SlidingButtons;
+			productReference = 22BFD0B717D9D96F003362BB /* SlidingButtons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22BFD0AF17D9D96F003362BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Shoaib Mac Mini";
+			};
+			buildConfigurationList = 22BFD0B217D9D96F003362BB /* Build configuration list for PBXProject "SlidingButtons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22BFD0AE17D9D96F003362BB;
+			productRefGroup = 22BFD0B817D9D96F003362BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22BFD0B617D9D96F003362BB /* SlidingButtons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22BFD0B517D9D96F003362BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BFD0C517D9D96F003362BB /* InfoPlist.strings in Resources */,
+				22BFD0CD17D9D96F003362BB /* Default.png in Resources */,
+				22BFD0CF17D9D96F003362BB /* Default@2x.png in Resources */,
+				22BFD0D117D9D96F003362BB /* Default-568h@2x.png in Resources */,
+				22BFD0D717D9D970003362BB /* ViewController.xib in Resources */,
+				22BFD0E417D9D9E1003362BB /* button@2x.png in Resources */,
+				22BFD0E517D9D9E1003362BB /* button.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22BFD0B317D9D96F003362BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BFD0C717D9D96F003362BB /* main.m in Sources */,
+				22BFD0CB17D9D96F003362BB /* AppDelegate.m in Sources */,
+				22BFD0D417D9D96F003362BB /* ViewController.m in Sources */,
+				22BFD0E017D9D9CA003362BB /* SlidingButtonsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22BFD0C317D9D96F003362BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22BFD0C417D9D96F003362BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22BFD0D517D9D970003362BB /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22BFD0D617D9D970003362BB /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22BFD0D817D9D970003362BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		22BFD0D917D9D970003362BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22BFD0DB17D9D970003362BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlidingButtons/SlidingButtons-Prefix.pch";
+				INFOPLIST_FILE = "SlidingButtons/SlidingButtons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22BFD0DC17D9D970003362BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlidingButtons/SlidingButtons-Prefix.pch";
+				INFOPLIST_FILE = "SlidingButtons/SlidingButtons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22BFD0B217D9D96F003362BB /* Build configuration list for PBXProject "SlidingButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BFD0D817D9D970003362BB /* Debug */,
+				22BFD0D917D9D970003362BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22BFD0DA17D9D970003362BB /* Build configuration list for PBXNativeTarget "SlidingButtons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BFD0DB17D9D970003362BB /* Debug */,
+				22BFD0DC17D9D970003362BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22BFD0AF17D9D96F003362BB /* Project object */;
+}
