@@ -35,19 +35,13 @@ typedef enum {
     
     BOOL on_;
     
-    CGPoint relPos_;
     CGPoint diff_;
     CGPoint refPos_;
-    
-    CGSize  buttonSize_;
-    CGPoint buttonPos_;
     
     id <SlidingButtonsViewDelegate>delegate_;
 }
 
-- (id)initWithDirection:(SliderDirection)sldDir Position:(CGPoint)pos ButtonImageNames:(id)firstObj, ... NS_REQUIRES_NIL_TERMINATION;
-
-- (id)initWithDirection:(SliderDirection)sldDir Position:(CGPoint)pos ButtonSize:(CGSize)btnSize Buttons:(UIButton*)firstObj, ... NS_REQUIRES_NIL_TERMINATION;
+- (id)initWithDirection:(SliderDirection)sldDir Position:(CGPoint)pos ButtonImages:(id)firstObj, ... NS_REQUIRES_NIL_TERMINATION;
 
 @property(nonatomic,getter=isOn) BOOL on;
 @property (nonatomic, assign) id <SlidingButtonsViewDelegate>delegate;

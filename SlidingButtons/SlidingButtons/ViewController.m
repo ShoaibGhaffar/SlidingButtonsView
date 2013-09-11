@@ -19,16 +19,16 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    SlidingButtonsView* sliderButtonView1 = [[SlidingButtonsView alloc] initWithDirection:kSliderDirectionLeft Position:CGPointMake(300, 300) ButtonImages:@"button.png", @"button.png", @"button.png", @"button.png", @"button.png", nil];
+    SlidingButtonsView* sliderButtonView1 = [[SlidingButtonsView alloc] initWithDirection:kSliderDirectionLeft Position:CGPointMake(300, 300) ButtonImageNames:@"button.png", @"button.png", @"button.png", @"button.png", @"button.png", nil];
     [self.view addSubview:sliderButtonView1];
     
-    SlidingButtonsView* sliderButtonView2 = [[SlidingButtonsView alloc] initWithDirection:kSliderDirectionTop Position:CGPointMake(400, 300) ButtonImages:@"button.png", @"button.png", @"button.png", @"button.png", @"button.png", nil];
+    SlidingButtonsView* sliderButtonView2 = [[SlidingButtonsView alloc] initWithDirection:kSliderDirectionTop Position:CGPointMake(400, 300) ButtonImageNames:@"button.png", @"button.png", @"button.png", @"button.png", @"button.png", nil];
     [self.view addSubview:sliderButtonView2];
     
-    SlidingButtonsView* sliderButtonView3 = [[SlidingButtonsView alloc] initWithDirection:kSliderDirectionDown Position:CGPointMake(300, 400) ButtonImages:@"button.png", @"button.png", @"button.png", @"button.png", @"button.png", nil];
+    SlidingButtonsView* sliderButtonView3 = [[SlidingButtonsView alloc] initWithDirection:kSliderDirectionDown Position:CGPointMake(300, 400) ButtonImageNames:@"button.png", @"button.png", @"button.png", @"button.png", @"button.png", nil];
     [self.view addSubview:sliderButtonView3];
     
-    SlidingButtonsView* sliderButtonView4 = [[SlidingButtonsView alloc] initWithDirection:kSliderDirectionRight Position:CGPointMake(400, 400) ButtonImages:@"button.png", @"button.png", @"button.png", @"button.png", @"button.png" , nil];
+    SlidingButtonsView* sliderButtonView4 = [[SlidingButtonsView alloc] initWithDirection:kSliderDirectionRight Position:CGPointMake(400, 400) ButtonImageNames:@"button.png", @"button.png", @"button.png", @"button.png", @"button.png" , nil];
     [self.view addSubview:sliderButtonView4];
     
     
